@@ -1,0 +1,11 @@
+From the project root:
+pkg update
+pkg install git gh -y
+gh auth login
+git init
+git add .
+git commit -m "Initial Open JARVIS project"
+gh repo create Open-JARVIS --private --source=. --remote=origin --push
+
+Then open GitHub -> repository -> Actions -> Build Open JARVIS APK -> Run workflow.
+Download the open-jarvis-debug-apk artifact after the run succeeds.

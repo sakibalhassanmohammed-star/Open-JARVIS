@@ -1,0 +1,5 @@
+<resources>
+<string name="app_name">Open JARVIS</string>
+<string name="accessibility_service_label">Open JARVIS accessibility</string>
+<string name="accessibility_service_description">Optional accessibility service. This starter does not automate taps or collect screen content.</string>
+</resources>
